@@ -25,4 +25,4 @@
 > 答案：
 
 - 问题X：通过 Github 的操作来说明工作区、暂存区、版本库之间的关系@黄加一
-> 答案：
+> 答案：http://note.youdao.com/yws/public/redirect/share?id=ae346d8cc956dabfcde623db6f81075c&type=false
