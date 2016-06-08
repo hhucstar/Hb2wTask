@@ -51,6 +51,7 @@
 3. 会自动生成网页，通过http://github用户名.github.io/仓库库即可访问，如我的：[http://jesonray.github.io/gb.upwith.me/]
 
 如需绑定域名，在仓库下简历CNAME文件，文件里面一行填写一个要绑定的域名，可以绑定多个。
+
 **注意：User/Organization Pages在master分支下创建CNAME，Project Pages需要在gh-pages分支下创建CNAME才会有效。**
 
 ### 问题6：如果要用 200 字向一个对 Github 完全陌生的人介绍它，要如何介绍？
