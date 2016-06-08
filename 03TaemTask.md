@@ -52,7 +52,7 @@
 - 做 ppt 不知道到哪里去找高质量美图？[Design- Resource List项目：](http://link.zhihu.com/?target=https%3A//github.com/timmy3131/design-resource)，
 旨在让更多的设计师找资源变得有章可循。
 
-这些资源都可以直接Fork，大大节省了时间！
+####这些资源都可以直接Fork，大大节省了时间！
 -------------------------------------------------------------
 以上部分文字源自：
 作者：珊姗是个小太阳
@@ -113,6 +113,7 @@ Mary于是修复bug，并重新提交，接着Pull Request到John。
 John很满意这次的提交文件，合并Mary的功能分支到自己的master主分支，并关闭Pull Request。
 
 *至此项目成功完成，宇宙飞船准备飞往火星了。。。*
+
 参考自：http://blog.jobbole.com/76854/
 
 ## *问题5 :通过 Github 的操作来说明工作区、暂存区、版本库之间的关系。*
