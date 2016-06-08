@@ -226,13 +226,13 @@ $ git push -u origin master
 
 >1.github注册
 
-在 GitHub 官网 https://github.com 注册.这部分应该没什么好说的,按照流程往下就可以.需要注意一点的是最好都用英文,实在不行用拼音也行吧.因为毕竟是老外的东西,对中文支持不是很好.
+>在 GitHub 官网 https://github.com 注册.这部分应该没什么好说的,按照流程往下就可以.需要注意一点的是最好都用英文,实在不行用拼音也行吧.因为毕竟是老外的东西,对中文支持不是很好.
 
 >2.个人github主页
 
-![](http://ww1.sinaimg.cn/mw690/8edca89bgw1f4nria3zstj21qy0zgajd.jpg)
+>![](http://ww1.sinaimg.cn/mw690/8edca89bgw1f4nria3zstj21qy0zgajd.jpg)
 
-注册完成后,点击上图中的Your profile菜单,就会进入你的个人github主页.
+>注册完成后,点击上图中的Your profile菜单,就会进入你的个人github主页.
 
 >2.github基本概念
 
