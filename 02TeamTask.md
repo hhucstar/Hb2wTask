@@ -158,63 +158,63 @@ $ git push -u origin master
 
 - 问题3：用实例介绍如何使用 Pull Request 和 Merge 实现团队工作协同？
 
-答案：
+>答案：
 
-pull Request用来发起你做的各个版本的讨论。pull是拉，request是请求。
+>pull Request用来发起你做的各个版本的讨论。pull是拉，request是请求。
 
-第一天，老板在自己的github客户端布置开启了一个项目，最初的项目只有master分支，在master分支下面，C1是最原始的项目概况，C2是老板补充细节后的项目。老板让我为项目提供新的想法，让项目更有活力。
+>第一天，老板在自己的github客户端布置开启了一个项目，最初的项目只有master分支，在master分支下面，C1是最原始的项目概况，C2是老板补充细节后的项目。老板让我为项目提供新的想法，让项目更有活力。
 
-第二天，我有了思路和想法并想要写下项目，所以我便新建了一个idea分支，然后在idea下面写下了我的想法，就是C3版本。我对我的idea十分满意，所以我使用pull request功能，将这个idea分支和master分支进行比较。（注意哦，一经发布，老板那里就可以看到呢，团队其他成员也可以看到，这个时候，就可以针对你的新版本进行讨论）
+>第二天，我有了思路和想法并想要写下项目，所以我便新建了一个idea分支，然后在idea下面写下了我的想法，就是C3版本。我对我的idea十分满意，所以我使用pull request功能，将这个idea分支和master分支进行比较。（注意哦，一经发布，老板那里就可以看到呢，团队其他成员也可以看到，这个时候，就可以针对你的新版本进行讨论）
 
-![](http://ww3.sinaimg.cn/mw690/8edca89bgw1f4no1bmcgfj209w06k0sk.jpg)
+>![](http://ww3.sinaimg.cn/mw690/8edca89bgw1f4no1bmcgfj209w06k0sk.jpg)
 
-第三天，老板收到了我pull request后的留言，也看到了我的C3版本，老板十分满意~~所以他点击同意合并，于是就出现了下面一步，合并merge.
+>第三天，老板收到了我pull request后的留言，也看到了我的C3版本，老板十分满意~~所以他点击同意合并，于是就出现了下面一步，合并merge.
 
-第四步，合并。老板点击合并，要把idea分支**合并merge**到master分支里，如下图此时，生成了一个CS版本。master指针指到CS版本上。这样，一个项目就做好了！点击master，我们在历史记录里可以看到每一步修改。可以看到C1、C2、到最后合并每一步的操作步骤。
+>第四步，合并。老板点击合并，要把idea分支**合并merge**到master分支里，如下图此时，生成了一个CS版本。master指针指到CS版本上。这样，一个项目就做好了！点击master，我们在历史记录里可以看到每一步修改。可以看到C1、C2、到最后合并每一步的操作步骤。
 
-![](http://ww3.sinaimg.cn/mw690/8edca89bgw1f4no1c42gbj20ax07l0sl.jpg)
+>![](http://ww3.sinaimg.cn/mw690/8edca89bgw1f4no1c42gbj20ax07l0sl.jpg)
 
-总结：Pull request 功能和merge功能可以想象成，老板的交给我一个任务，我写好了，我使用pull request功能，提交项目到群组里，让团队成员和老板查看，听取大家的意见和评论，我再根据评论进行修改。当我修改了好了，老板和团队成员评论说，满意了，老板（或者我）就可以使用merge功能，将我的任务合并到母任务里。这样就完成了一次团队协作。
+>总结：Pull request 功能和merge功能可以想象成，老板的交给我一个任务，我写好了，我使用pull request功能，提交项目到群组里，让团队成员和老板查看，听取大家的意见和评论，我再根据评论进行修改。当我修改了好了，老板和团队成员评论说，满意了，老板（或者我）就可以使用merge功能，将我的任务合并到母任务里。这样就完成了一次团队协作。
 
 - 问题5：通过 Github 的操作来说明工作区、暂存区、版本库之间的关系。
 
 答案:
 
-分别介绍一下在github web网页中和github desktop客户端中的体现
+>分别介绍一下在github web网页中和github desktop客户端中的体现
 
-1.在web网页中
+>1.在web网页中
 
-**版本区**
+>**版本区**
 
-![](http://ww3.sinaimg.cn/mw690/8edca89bgw1f4nk90277qj20v70rnn4u.jpg)
+>![](http://ww3.sinaimg.cn/mw690/8edca89bgw1f4nk90277qj20v70rnn4u.jpg)
 
-如上图,我们进入github仓库看到的这个目录结构就是我们的版本区所在
+>如上图,我们进入github仓库看到的这个目录结构就是我们的版本区所在
 
-随便点一个文件进入下图
+>随便点一个文件进入下图
 
-![](http://ww1.sinaimg.cn/mw690/8edca89bgw1f4nk90t8ryj20u20esmyl.jpg)
+>![](http://ww1.sinaimg.cn/mw690/8edca89bgw1f4nk90t8ryj20u20esmyl.jpg)
 
-点击右上角铅笔标识的按钮,就进入了我们的工作区
+>点击右上角铅笔标识的按钮,就进入了我们的工作区
 
-**工作区**
+>**工作区**
 
-![](http://ww1.sinaimg.cn/mw690/8edca89bgw1f4nk91ejkpj20vp0tf425.jpg)
+>![](http://ww1.sinaimg.cn/mw690/8edca89bgw1f4nk91ejkpj20vp0tf425.jpg)
 
-如图,在这我们可以直接对文件修改
+>如图,在这我们可以直接对文件修改
 
-**暂存区**
+>**暂存区**
 
-如果修改完成,在上图中,填写commit信息,点击commit按钮后,我们的修改内容就会到我们的暂存区.
+>如果修改完成,在上图中,填写commit信息,点击commit按钮后,我们的修改内容就会到我们的暂存区.
 
-2.在github desktop客户端中
+>2.在github desktop客户端中
 
-github desktop客户端其实也是一样的道理,只是有一些细微的差别,下面我们通过无暂存区和有暂存区的两种图对比看看,这些区别在什么地方
+>github desktop客户端其实也是一样的道理,只是有一些细微的差别,下面我们通过无暂存区和有暂存区的两种图对比看看,这些区别在什么地方
 
-注意:左图都是没有暂存区的情况,右图是有暂存区的情况.红色圈出来的地方就是他们之间的差别.
+>注意:左图都是没有暂存区的情况,右图是有暂存区的情况.红色圈出来的地方就是他们之间的差别.
 
-![](http://ww1.sinaimg.cn/mw690/8edca89bgw1f4nkfr2w0zj20rt0dngqy.jpg)
+>![](http://ww1.sinaimg.cn/mw690/8edca89bgw1f4nkfr2w0zj20rt0dngqy.jpg)
 
-![](http://ww1.sinaimg.cn/mw690/8edca89bgw1f4nkfs4x5hj20sa0cbwh8.jpg)
+>![](http://ww1.sinaimg.cn/mw690/8edca89bgw1f4nkfs4x5hj20sa0cbwh8.jpg)
 
 
 
