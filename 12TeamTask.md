@@ -11,6 +11,7 @@
 
 -----
 ## 作业详情
+
 ### 问题1：说说自己可以用 Github 做些什么，不少于 6 条。
 答案：
 
@@ -22,7 +23,9 @@
 6. 与开源程序作者交流；
 
 ### 问题2：用实例介绍如何使用 Github Pages 的 User or organization site 及 Project site 建立独立站点？
+
 答案：
+
 **User/Organization Pages 个人或公司站点:**
 
 1. 使用自己的用户名，每个用户名下面只能建立一个；
@@ -55,6 +58,7 @@
 **注意：User/Organization Pages在master分支下创建CNAME，Project Pages需要在gh-pages分支下创建CNAME才会有效。**
 
 ### 问题6：如果要用 200 字向一个对 Github 完全陌生的人介绍它，要如何介绍？
+
 答案：
 
 1. Github是一个网站，域名为 github.com
